@@ -6,5 +6,8 @@
        <activity android:name="com.walmartlabs.ern.container.miniapps.MovieListMiniAppActivity"		
                  android:exported="true">		
        </activity>		
+       <activity android:name="com.walmartlabs.ern.container.miniapps.MovieDetailsMiniAppActivity"		
+                 android:exported="true">		
+       </activity>		
    </application>
 </manifest>
