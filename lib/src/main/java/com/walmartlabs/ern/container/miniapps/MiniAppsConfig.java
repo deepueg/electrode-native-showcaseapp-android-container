@@ -26,5 +26,6 @@ public class MiniAppsConfig {
     public static final HashMap<String, Class> MINIAPP_ACTIVITIES = new HashMap<String, Class>() {{
         put("MovieListMiniApp", MovieListMiniAppActivity.class);
         put("MovieDetailsMiniApp", MovieDetailsMiniAppActivity.class);
+        put("colorpickerdemominiapp", ColorpickerdemominiappActivity.class);
     }};
 }
