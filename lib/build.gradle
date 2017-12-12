@@ -21,7 +21,7 @@ gradle.projectsEvaluated {
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.version = '1.0.6'
+            pom.version = '1.0.7'
             pom.artifactId = 'ElectrodeNativeShowcase-ern-container'
             pom.groupId = 'com.walmartlabs.ern'
             repository(url: "http://mobilebuild.homeoffice.wal-mart.com:8081/nexus/content/repositories/hosted") { authentication(userName: mavenUser, password: mavenPassword) }
